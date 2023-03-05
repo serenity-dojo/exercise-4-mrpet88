@@ -28,7 +28,7 @@ public String getName(String name){
     this.favoriteToy=favoriteToy;
 }
     
-    public int getAge(String age){
+    public int getAge(int age){
     this.age=age;
 }
 }
