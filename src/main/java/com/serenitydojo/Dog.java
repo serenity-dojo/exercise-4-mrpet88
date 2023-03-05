@@ -24,7 +24,7 @@ public String getName(String name){
 return this.name=name;
 }
     
-    public String getFavoriteToy(String favoriteToy){
+    public String getFavoriteToy(){
 return this.favoriteToy=favoriteToy;
 }
     
