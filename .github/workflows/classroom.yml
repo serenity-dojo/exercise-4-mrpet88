@@ -14,8 +14,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: education/autograding@v1
-      - name: 'Upload Artifact'
-        uses: actions/upload-artifact@v3
-        with:
-          path: ${basedir}/target/newsite
-          retention-days: 5
