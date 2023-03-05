@@ -17,7 +17,7 @@ public Dog(String name, String favoriteToy, int age){
 public String makeNoise(){
     return DOG_NOISE;
 }
-public boolean feed(){
+public boolean isFed(){
     return this.isFed=true;
 }
 public String getName(){
