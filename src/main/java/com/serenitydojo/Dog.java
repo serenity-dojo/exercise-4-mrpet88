@@ -17,18 +17,18 @@ public Dog(String name, String favoriteToy, int age){
 public String makeNoise(){
     return DOG_NOISE;
 }
-public void feed(){
-    this.isFed=true;
+public boolean feed(){
+    return this.isFed=true;
 }
-public void getName(String name){
-this.name=name;
-}
-    
-    public void getFavoriteToy(String favoriteToy){
-    this.favoriteToy=favoriteToy;
+public String getName(String name){
+return this.name=name;
 }
     
-    public void getAge(int age){
-    this.age=age;
+    public String getFavoriteToy(String favoriteToy){
+return this.favoriteToy=favoriteToy;
+}
+    
+    public int void getAge(int age){
+   return this.age=age;
 }
 }
