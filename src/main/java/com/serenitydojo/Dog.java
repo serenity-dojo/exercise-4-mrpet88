@@ -28,7 +28,7 @@ return this.name=name;
 return this.favoriteToy=favoriteToy;
 }
     
-    public int void getAge(int age){
+    public int getAge(int age){
    return this.age=age;
 }
 }
