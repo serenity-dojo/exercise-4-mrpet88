@@ -20,5 +20,15 @@ public String makeNoise(){
 public void feed(){
     this.isFed=true;
 }
-
+public String getName(String name){
+    this.name=name;
+}
+    
+    public String getFavoriteToy(String favoriteToy){
+    this.favoriteToy=favoriteToy;
+}
+    
+    public int getAge(String age){
+    this.age=age;
+}
 }
