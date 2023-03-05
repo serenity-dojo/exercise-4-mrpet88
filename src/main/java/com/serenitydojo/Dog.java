@@ -20,7 +20,7 @@ public String makeNoise(){
 public boolean feed(){
     return this.isFed=true;
 }
-public String getName(String name){
+public String getName(){
 return this.name=name;
 }
     
